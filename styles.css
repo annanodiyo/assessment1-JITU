@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.main{
+    /* background-color: bisque; */
+    margin: 55px;
+
+}
+.content{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.content.main-image{
+    border-radius: 15px;
+}
+table{
+border-spacing: 40px;
+border-bottom: solid 5px black, 0.3;
+}
+.attribution{
+    font-size: 11px; text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
