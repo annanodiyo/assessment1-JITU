@@ -1,4 +1,5 @@
-*{
+
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -11,8 +12,8 @@
 }
 .main{
     /* background-color: bisque; */
-    margin: 55px;
-
+    /* margin: 55px; */
+/*
 }
 .content{
     width: 80vw;
@@ -22,8 +23,27 @@
     justify-content: space-evenly;
     flex-direction: row;
 }
-.content.main-image{
-    border-radius: 15px;
+.others{
+    display: flex;
+    flex-direction: row;
+    margin-top: 500px;
+    height: 80px;
+    justify-items: flex-start;
+
+}
+.images{
+    display: flex;
+    width:35px;
+
+}
+.description{
+    /* display: flex; */
+    /* padding: 30px; */
+    /* justify-content: space-between; */
+
+/*}
+.content .images .main-image{
+    border-radius: 50px;
 }
 table{
 border-spacing: 40px;
@@ -35,3 +55,4 @@ border-bottom: solid 5px black, 0.3;
 .attribution a{
     color: hsl(228, 45%, 44%);
 }
+ */

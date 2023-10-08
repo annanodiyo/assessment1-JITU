@@ -1,32 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="mystyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@200&display=swap" rel="stylesheet">
 
-  <title>Frontend Mentor | E-commerce product page</title>
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <div class="main">
+      <section class="nav">
+        <div class="sect1">
+          <div class="log">
+            <img src="./images/logo.svg" width="80px" alt="" />
+          </div>
+          <div class="links">
+            <p>Collections</p>
+            <p>Men</p>
+            <p>Women</p>
+            <p>About</p>
+            <p>Contact</p>
+          </div>
+        </div>
+        <div class="sect2">
+          <img style="width: 12px;" src="./images/icon-cart.svg" alt="Cart" />
+          <img src="./images/image-avatar.png" width="30px" alt="avatar" />
 
-</head>
-<body>
-  <div class="main">
-    <div class="breadcrumbs">
-      <div>
-        <table>
-          <tr>
-            <td> <img src="./images/logo.svg" alt=""> </td>
-            <td> <br> Collections <br><br></td>
-            <td>Men <br></td>
-            <td>Women <br></td>
-            <td> About <br></td>
-            <td>Contact <br></td>
-            <td class="icon"><img src="./images/image-avatar.png" alt="avatar"> <td>
+        </div>
+      </section>
+      <section class="shops">
+        <section class="images">
+          <div class="img1">
+            <img
+              style="border-radius: 15px"
+              src="./images/image-product-1.jpg"
+              width="300px"
+              alt=""
+            />
+          </div>
+          <div class="otherimgs">
+            <img style="opacity: 0.5; border: 3px solid hsl(26, 100%, 55%);" src="./images/image-product-1-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+            <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+          </div>
+        </section>
+        <section class="description">
+          <div class="items">
 
-          </tr>
+            <h3>SNEAKER COMPANY</h3>
+            <h2>Fall Limited Edition <br>Sneakers</h2>
+            <p>These low-profile sneakers are your perfect casual wear <br> companion. Featuring a
+              durable rubber outer sole, they’ll <br> withstand everything the weather can offer.</p>
+          </div>
+          <div class="price">
+            <h4>$125.00</h4>
+            <div><h5>50%</h5></div>
+          </div>
+          <div class="save"><del>$250.00</del></div>
+          <section class="btns">
+            <button class="increase"></button>
+            <button class="btn"><img src="./images/icon-cart.svg"><b>Add to cart </button>
+          </section>
 
-        </table>
+        </div>
+      </section>
+          <section></section>
+          <section></section>
+          <section></section>
+
+        </section>
+      </section>
+
 
       </div>
 
@@ -35,60 +90,17 @@
       </div>
 
     </div>
-    <div class="content">
-      <div class="images">
-        <div class="main-image">
-          <div>
-            <img src="./images/image-product-1.jpg" width="300px" alt="">
-          </div>
-        </div>
-        <!-- <div class="others">
-          <div>
-            <img src="./images/image-product-1.jpg" width="20px" alt="">
-          </div>
-          <div>
-            <img src="./images/image-product-2.jpg" width="20px" >
-          </div>
-          <div>
-            <img src="./images/image-product-3.jpg" swidth="20px" >
-          </div>
-        </div> -->
-      </div>
-
-      <div class="description">
-        <div>
-          <h3>Sneaker Company</h3>
-          <h2>Fall Limited Edition Sneakers</h2>
-          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
-            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
-        </div>
-        <div class="price"><h4>$125.00</h4></div>
-        <div class="disc"><h5>50%</h5></div>
-        <div class="save">$250.00</div>
-        <button class="btn">Add to cart </button>
-      </div>
 
 
+    <!-- </div>
 
+    0
 
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-  0
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
 </html>
